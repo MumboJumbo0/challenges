@@ -6,59 +6,44 @@
     <title>Button styling</title>
 
     <style>
-        .btn {
+    .btn {
       display: flex;
       flex-direction: column;
       gap: 10px; /* spacing between buttons */
       width: 150px;
     }
-.transition-button1
-{
-    background-color: crimson;
-    color: white;
-    padding: 10px 10px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    /*Transition properties*/
-    transition-property: backgorund-color, transfrom;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
+.transition-button1,
+.transition-button2,
+.transition-button3 {
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition-property: background-color, transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
-.transition-button2
-{
-    background-color: seagreen;
-    color: white;
-    padding: 10px 10px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    /*Transition properties*/
-    transition-property: backgorund-color, transfrom;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
+.transition-button1 {
+  background-color: crimson;
+  border-radius: 15px;
 }
-.transition-button3
-{
-    background-color: dodgerblue;
-    color: white;
-    padding: 10px 10px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    /*Transition properties*/
-    transition-property: backgorund-color, transfrom;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
+.transition-button2 {
+  background-color: seagreen;
+  border-radius: 25px;
+}
+.transition-button3 {
+  background-color: dodgerblue;
+  border-radius: 12px;
 }
 .transition-button1:hover{
-    background-color: darkred;
+  background-color: darkred;
 }
 .transition-button2:hover{
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 .transition-button3:hover{
-    background-color: navy;
+ background-color: navy;
 }
 .transition-button1 {border-radius: 15px;}
 .transition-button2 {border-radius: 25px;}
